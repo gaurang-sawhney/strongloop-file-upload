@@ -1,0 +1,17 @@
+<html>
+    <Title>Files</Title>
+    <h1>Files</h1>
+    <body>
+        <a href="/"> Back </a>
+        <p><%=message%><p>
+        <ul>
+            <% for(var i=0; i<file_list.length; i++) {
+                <!-- Link if used with API's in server.js -->
+                <!-- var link = '/files?name=' + file_list[i].name -->
+                var link = '/api/files/servify-test/download/' + file_list[i].name
+            %>
+                <a href=<%= link %>><li><%= file_list[i].name %></li>
+            <% } %>
+        </ul>
+    </body>
+</html>

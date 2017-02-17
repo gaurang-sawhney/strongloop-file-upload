@@ -1,0 +1,13 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "aws": {
+    "name": "aws",
+    "connector": "loopback-component-storage",
+    "provider": "amazon",
+    "key": "novMgAlXS5TKJg/HAuaNPz+t2SWGm9arfsgpj0lX",
+    "keyId": "AKIAITBYUFMZKHT3LWQA"
+  }
+}
